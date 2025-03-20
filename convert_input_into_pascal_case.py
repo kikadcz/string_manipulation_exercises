@@ -1,6 +1,6 @@
 #Prog09: Create a program that ask the user to input their fullname in incorrect casing. Print the input in pascal case.
 
-name = input("What's your full name? : ")
+name = input("What's your full name? (Use incorrect casing): ")
 
 pascal_name = "".join(name.title().split())
 
